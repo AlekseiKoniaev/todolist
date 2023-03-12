@@ -2,7 +2,7 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/todolist
     username: postgres
-    password: 9en2w0oc
+    password: ntnhfwbrkby
 logging:
   level:
     root: info

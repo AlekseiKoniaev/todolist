@@ -15,7 +15,7 @@ public class EmployeeMapper implements RowMapper<Employee> {
         Employee employee = new Employee();
         employee.setId(rs.getInt("id"));
         employee.setCreationDate(rs.getTimestamp("creation_date").toLocalDateTime());
-        employee.setTitle(rs.getString("title"));
+        //employee.setTitle(rs.getString("title"));
         employee.setRole(rs.getString("role"));
         return employee;
     }
