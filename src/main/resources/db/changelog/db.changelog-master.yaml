@@ -1,0 +1,9 @@
+databaseChangeLog:
+  - include:
+      file: db/changelog/changeset/create-employee.sql
+#    -   include:
+#            file: db/changelog/changeset/create-author.sql
+#    -   include:
+#            file: db/changelog/changeset/create-genre.sql
+#    -   include:
+#            file: db/changelog/changeset/constraint-book.sql
